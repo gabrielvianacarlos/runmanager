@@ -62,7 +62,10 @@ public class AddCorridaActivity extends AppCompatActivity {
         data.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DatePickerDialog dialog = new DatePickerDialog(AddCorridaActivity.this, dateSetListener, 2017, 1, 1);
+                int year = Calendar.getInstance().get(Calendar.YEAR);
+                int month = Calendar.getInstance().get(Calendar.MONTH);
+                int day = Calendar.getInstance().get(Calendar.DAY_OF_MONTH);
+                DatePickerDialog dialog = new DatePickerDialog(AddCorridaActivity.this, dateSetListener, year, month, day);
                 dialog.show();
             }
         });
