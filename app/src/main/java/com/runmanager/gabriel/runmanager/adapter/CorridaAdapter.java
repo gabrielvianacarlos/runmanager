@@ -56,7 +56,7 @@ public class CorridaAdapter extends BaseAdapter {
         if(!corrida.isCorridaFeita()){
             linha.setBackgroundColor(ContextCompat.getColor(activity, R.color.pink));
         } else {
-            linha.setBackgroundColor(ContextCompat.getColor(activity, R.color.green));
+            linha.setBackgroundColor(ContextCompat.getColor(activity, R.color.gray));
         }
 
         return linha;

@@ -11,7 +11,6 @@
             android:id="@+id/tv_edit_km"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
             android:maxLines="1"/>
     </android.support.design.widget.TextInputLayout>
 
