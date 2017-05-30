@@ -2,24 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/ll_corrida"
     android:layout_width="match_parent"
-    android:layout_height="48dp"
+    android:layout_height="@dimen/corrida_height"
     android:orientation="horizontal"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="8dp"
-    android:paddingBottom="8dp">
+    android:paddingLeft="@dimen/corrida_padding_left"
+    android:paddingRight="@dimen/corrida_padding_right"
+    android:paddingTop="@dimen/corrida_padding_top"
+    android:paddingBottom="@dimen/corrida_padding_bottom">
 
     <TextView
         android:id="@+id/tv_km"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:minWidth="105dp"
-        android:textSize="16sp"/>
+        android:minWidth="@dimen/corrida_distancia_min_width"
+        android:textSize="@dimen/corrida_distancia_text_size"/>
 
     <TextView
         android:id="@+id/tv_data_programada"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="16sp"/>
+        android:textSize="@dimen/corrida_data_programda_text_size"/>
 
 </LinearLayout>

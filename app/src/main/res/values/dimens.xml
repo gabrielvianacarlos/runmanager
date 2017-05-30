@@ -1,3 +1,14 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="sem_corridas_cadastradas_text_size">30sp</dimen>
+
+    <dimen name="corrida_height">48dp</dimen>
+    <dimen name="corrida_padding_left">16dp</dimen>
+    <dimen name="corrida_padding_right">16dp</dimen>
+    <dimen name="corrida_padding_top">8dp</dimen>
+    <dimen name="corrida_padding_bottom">8dp</dimen>
+    <dimen name="corrida_data_programda_text_size">16sp</dimen>
+    <dimen name="corrida_distancia_text_size">16sp</dimen>
+    <dimen name="corrida_distancia_min_width">105dp</dimen>
+
 </resources>
